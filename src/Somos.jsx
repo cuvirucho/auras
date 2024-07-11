@@ -4,7 +4,7 @@ const Somos = () => {
   return (
     <article className='contesomos' >
 <div  className='conteobre'>
-<img  className='logo2'  src="public/imgs/Diseño sin título (4).png" alt="" />
+<img  className='logo2'  src="src/imgds/Diseño sin título (4).png" alt="" />
 <div className='orve'></div>
 </div>
 
