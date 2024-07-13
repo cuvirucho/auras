@@ -160,8 +160,8 @@ color: #dbdbdb;
   }
   
   .button button:hover {
-    background-color: aqua;
-    color: #000;
+    background: linear-gradient(500deg, cyan, rgb(234, 0, 255));
+    color: #f7f6f6;
   }
   
 .prev{
@@ -211,9 +211,9 @@ transform: translate(-1.3rem,0);
 
 
   .itemher:hover{
-    background-color: aqua;
-    color: #000;
-    padding: 0.1rem;
+    background: linear-gradient(500deg, cyan, rgb(234, 0, 255));
+    color: #fffbfb;
+    padding: 0.3rem;
     border-radius: 5rem;
     transition: 0.5s;
   }
@@ -375,12 +375,6 @@ align-items: center;
 
 
 
-.btnitem:hover{
-  background-color: cyan;
-  color: #000;
-}
-
-
 
 /*contactos*/
 .conteconta{
@@ -399,7 +393,13 @@ align-items: center;
 .conterese{
   display: flex;
   gap: 0.5rem;
+  color: blueviolet;
 }
+
+#re:hover{
+  transform: scale(1.5);
+}
+
 .btbcota{
   background-color: #00000041;
   color: #fafffa;
@@ -431,8 +431,16 @@ transform: translate(0px, 7rem);
 
 
 /*animciones */
+.btnitem:hover{
+  background-color: rgb(140, 0, 255);
+  color: #000;
+}
 .items:hover{
   transform: scale(1.1);
+}
+.items:hover .btnitem{
+  background: linear-gradient(500deg, cyan, rgb(234, 0, 255));
+  color: #f7f1f1;
 }
 
 

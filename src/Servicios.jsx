@@ -46,8 +46,8 @@ const Servicios = () => {
 
 
 
-  const phoneNumber = '+593963200325'; // Replace with the recipient's phone number
-    const message = ''; // Replace with your message
+  const phoneNumber = '+593988800752'; // Replace with the recipient's phone number
+    const message = 'holi porfa mas informacion de los sevicios'; // Replace with your message
   
     const gomsaje = () => {
       const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
@@ -63,7 +63,7 @@ const Servicios = () => {
                 backgroundImage: `url(https://images.pexels.com/photos/887352/pexels-photo-887352.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)`,
               }} >
     <h1 className='titiuem'    >Uñas acrílicas</h1> 
-    <button onClick={gomsaje}   className='btnitem' >Reserva</button> 
+    <button onClick={gomsaje} id='btnse'  className='btnitem' >Reserva</button> 
 </div>
 
 <div className='items'    style={{
