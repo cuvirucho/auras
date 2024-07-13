@@ -4,7 +4,19 @@ const Somos = () => {
   return (
     <article className='contesomos' >
 <div  className='conteobre'>
-<img  className='logo2'  src="src/Diseño sin título (4).png" alt="" />
+
+
+
+
+<img 
+        className='logo2' 
+        src='https://res.cloudinary.com/db8e98ggo/image/upload/v1720878611/uivl3o3xh0rhuhhwz6iu.png' 
+        alt="Logo" 
+      />
+  
+  
+
+
 <div className='orve'></div>
 </div>
 

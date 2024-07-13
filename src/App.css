@@ -200,7 +200,7 @@ height: 3rem;
     align-items: center;
 text-align:center ;
 gap: 1rem;
-transform: translate(-1.0rem,0);
+transform: translate(-1.3rem,0);
   }
   .itemher{
     font-size: 0.55rem;
@@ -420,7 +420,7 @@ align-items: center;
 .log1{
   width:4rem ;
   height: 4rem;
-  transform: translate(-0.1rem, -0.1rem);
+  transform: translate(-0.8rem, -0.6rem);
 }
 .logo2{
   width: 5rem;
